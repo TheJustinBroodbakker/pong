@@ -34,7 +34,7 @@ package screens
 						
 			title = new TextField();
 			title.embedFonts = true;
-			title.text = "Pong";
+			title.text = "Revenge of The Pong";
 			title.autoSize = TextFieldAutoSize.CENTER;			
 			title.setTextFormat(textFormat);		
 			
@@ -49,7 +49,7 @@ package screens
 			
 			start = new TextField();
 			start.embedFonts = true;
-			start.text = "press space to start";
+			start.text = "press space to execute order 66!";
 			start.autoSize = TextFieldAutoSize.CENTER;
 			start.setTextFormat(subFormat)
 			
