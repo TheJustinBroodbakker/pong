@@ -30,7 +30,7 @@ package screens
 		private function init(e:Event):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-				for (var i:int = 0; i < 1; i++) 
+				for (var i:int = 0; i < 3; i++) 
 			{
 				balls.push(new Ball());
 				addChild(balls[i]);
@@ -127,7 +127,7 @@ package screens
 			SpeedController = lagerDan;
 		}
 		public function get SpeedRestriction():Number {
-			return SpeedController;
+			return SpeedRestriction;
 		}
 		
 		
