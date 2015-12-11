@@ -30,7 +30,7 @@ package screens
 		private function init(e:Event):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-				for (var i:int = 0; i < 2; i++) 
+				for (var i:int = 0; i < 1; i++) 
 			{
 				balls.push(new Ball());
 				addChild(balls[i]);
@@ -101,7 +101,7 @@ package screens
 		
 		private function checkScore():void 
 		{
-			if (scoreboard.player1 >= 10 || scoreboard.player2 >= 10)
+			if (scoreboard.player1 >= 66 || scoreboard.player2 >= 66)
 			{
 				destroy();
 				dispatchEvent(new Event(GAME_OVER));
@@ -119,6 +119,21 @@ package screens
 			}
 			balls.splice(0, balls.length);
 		}
+		public function set SpeedController(lagerDan:Number):void {
+			if (lagerDan	< 30) {
+				trace("het is niet mogelijk om boven de 30 te komen");
+				lagerDan < 30;
+			}
+			SpeedController = lagerDan;
+		}
+		public function get SpeedRestriction():Number {
+			return SpeedController;
+		}
+		
+		
+		
+		
+		
+		}
 	}
 
-}
