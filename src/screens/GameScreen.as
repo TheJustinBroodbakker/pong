@@ -14,7 +14,7 @@ package screens
 	
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Justin Broodbakker
 	 */
 	public class GameScreen extends Screen
 	{
