@@ -9,7 +9,7 @@ package actors
 	import utils.MovementCalculator;
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Justin Broodbakker
 	 */
 	public class Ball extends MovieClip 
 	{
